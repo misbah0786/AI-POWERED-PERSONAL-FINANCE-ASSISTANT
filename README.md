@@ -35,10 +35,12 @@ Start tracking your expenses and receive AI-driven insights.
 Technologies Used
 Python
 Machine Learning (TensorFlow/PyTorch)
+
 Natural Language Processing (NLP)
+
 FastAPI/Flask
 
-PostgreSQL
+
 
 Contributing
 
