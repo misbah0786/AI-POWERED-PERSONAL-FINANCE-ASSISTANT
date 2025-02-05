@@ -9,6 +9,20 @@ Budgeting Assistance: Create and manage budgets tailored to your needs.
 Financial Insights: Get AI-driven insights based on spending habits.
 Investment Suggestions: Receive data-driven investment recommendations.
 Forecasting: Predict future financial trends using machine learning models.
+User authentication and registration
+AI-powered chatbot for financial queries
+Personalized financial advice using AI
+Financial snapshot and goal setting
+Technologies Used
+Next.js and React for Frontend and BackendDatabase: MongoDB
+AI Integration: OpenAI's GPT-4
+State Management: Redux Toolkit
+
+Use Cases
+Integrate with real-time financial data APIs to provide up-to-date market information and analysis.
+Implement a document upload feature to analyze financial statements and tax returns.
+Create interactive financial education modules with quizzes and rewards.
+
 
 Installation
 Prerequisites
@@ -32,6 +46,7 @@ Launch the application and connect your financial accounts.
 Set your budget preferences and financial goals.
 Start tracking your expenses and receive AI-driven insights.
 
+
 Technologies Used
 Python
 Machine Learning (TensorFlow/PyTorch)
@@ -42,6 +57,5 @@ FastAPI/Flask
 
 
 
-Contributing
 
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+
