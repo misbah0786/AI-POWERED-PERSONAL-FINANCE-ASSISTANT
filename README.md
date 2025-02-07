@@ -16,20 +16,18 @@ Features:
 bash
 Copy
 Edit
-
 cd finance-assistant
 2️⃣ Install dependencies:
-
 bash
 Copy
 Edit
 pip install pandas scikit-learn pickle-mixin
 3️⃣ Run the script:
-
 bash
 Copy
 Edit
 python finance_assistant.py
+
 📂 Project Structure:
 bash
 Copy
