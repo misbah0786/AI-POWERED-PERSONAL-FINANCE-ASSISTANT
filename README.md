@@ -1,61 +1,50 @@
-AI-Powered Finance Assistant
+Finance Assistant – AI-Powered Budget Prediction
 
-Overview
-AI-Powered Finance Assistant is an intelligent tool designed to help users manage their finances efficiently. It leverages artificial intelligence to provide insights, budgeting recommendations, expense tracking, and financial forecasts to assist users in making informed decisions.
+📖 Description:
+Finance Assistant is a machine learning-based tool that predicts expenses based on an individual's income and savings. It helps users better manage their finances by providing AI-driven insights into their spending habits. The project uses Linear Regression to model expense trends and make data-driven predictions.
 
-Features
-Expense Tracking: Automatically categorize and track your expenses.
-Budgeting Assistance: Create and manage budgets tailored to your needs.
-Financial Insights: Get AI-driven insights based on spending habits.
-Investment Suggestions: Receive data-driven investment recommendations.
-Forecasting: Predict future financial trends using machine learning models.
-User authentication and registration
-AI-powered chatbot for financial queries
-Personalized financial advice using AI
-Financial snapshot and goal setting
-Technologies Used
-Next.js and React for Frontend and BackendDatabase: MongoDB
-AI Integration: OpenAI's GPT-4
-State Management: Redux Toolkit
+Features:
+✔ Predicts expenses based on income & savings
+✔ Uses scikit-learn for machine learning
+✔ Saves trained model as a pickle (.pkl) file for reuse
+✔ Provides Mean Squared Error (MSE) for model evaluation
+✔ Easy-to-use and can be expanded for more financial insights
 
-Use Cases
-Integrate with real-time financial data APIs to provide up-to-date market information and analysis.
-Implement a document upload feature to analyze financial statements and tax returns.
-Create interactive financial education modules with quizzes and rewards.
+🛠️ Installation & Setup:
+1️⃣ Clone the repository:
 
+bash
+Copy
+Edit
 
-Installation
-Prerequisites
-Python 3.8+
-Required dependencies (install using requirements.txt)
+cd finance-assistant
+2️⃣ Install dependencies:
 
-Steps to Install
-Clone the repository:
-git clone https://github.com/your-repo/ai-finance-assistant.git
-Navigate to the project directory:
-cd ai-finance-assistant
+bash
+Copy
+Edit
+pip install pandas scikit-learn pickle-mixin
+3️⃣ Run the script:
 
-Install dependencies:
-pip install -r requirements.txt
+bash
+Copy
+Edit
+python finance_assistant.py
+📂 Project Structure:
+bash
+Copy
+Edit
+/finance_assistant
+│── data/
+│   └── budget_data.csv  # Dataset file
+│── models/
+│   └── finance_model.pkl  # Saved trained model
+│── finance_assistant.py  # Main ML script
+│── README.md  # Project documentation
 
-Run the application:
-python app.py
-
-Usage
-Launch the application and connect your financial accounts.
-Set your budget preferences and financial goals.
-Start tracking your expenses and receive AI-driven insights.
-
-
-Technologies Used
-Python
-Machine Learning (TensorFlow/PyTorch)
-
-Natural Language Processing (NLP)
-
-FastAPI/Flask
-
-
-
-
-
+📊 How It Works:
+Loads financial dataset (budget_data.csv)
+Splits data into training and testing sets
+Trains a Linear Regression model
+Evaluates model accuracy using Mean Squared Error (MSE)
+Saves trained model (finance_model.pkl) for future use
