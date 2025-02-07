@@ -11,7 +11,7 @@ Features:
 ✔ Easy-to-use and can be expanded for more financial insights
 
 🛠️ Installation & Setup:
-1️⃣ Clone the repository:
+1️⃣ Clone the repository:https://github.com/misbah0786/AI-POWERED-PERSONAL-FINANCE-ASSISTANT-ASSISTA.git
 
 bash
 Copy
